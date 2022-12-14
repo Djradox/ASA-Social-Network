@@ -1,0 +1,39 @@
+/* Arrière plan index */
+
+body{
+    background-image: url(../img/asalogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    }
+
+        /* Style texte */
+
+        h1.titre{
+            text-align-last: center;
+            font-family: cursive;
+            font-weight: lighter;
+            color: #2A6198;
+        }
+
+                /* Menu */ 
+
+                nav.menu-principal ul li.btn-menu-principal a{
+                    color: #2A6198;
+                    font-size: x-large;
+                    text-decoration: none;
+                    padding: 10px;
+                }
+
+                nav.menu-principal ul li.btn-menu-principal{
+                    display: inline-block;
+                }
+
+                nav.menu-principal ul li.btn-menu-principal{
+                    list-style-type: none;
+                    tex
+                }
+
+                nav.menu-principal ul li.btn-menu-principal:hover a{
+                    color: #1FA593;
+                    transition: 0.5s all;
+                }
