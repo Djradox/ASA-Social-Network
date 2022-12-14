@@ -1,39 +1,69 @@
 /* Arrière plan index */
 
-body{
+header{
     background-image: url(../img/asalogo.jpg);
     background-repeat: no-repeat;
-    background-size: 200px;
-    }
+    background-size: 120px;
+    margin: 2%;
+        }
 
         /* Style texte */
 
         h1.titre{
-            text-align-last: center;
+            text-align: center;
             font-family: cursive;
             font-weight: lighter;
             color: #2A6198;
         }
 
+        h2.div{
+            font-weight: lighter;
+            color: #2A6198; 
+        }
                 /* Menu */ 
 
                 nav.menu-principal ul li.btn-menu-principal a{
                     color: #2A6198;
                     font-size: x-large;
                     text-decoration: none;
+                    margin-left: auto;
+                    margin-right: auto;
                     padding: 10px;
+                    text-align: center;
+
+                }
+
+                nav.menu-principal ul li.btn-menu-principal:visited a{
+                    color: black;
+                  
                 }
 
                 nav.menu-principal ul li.btn-menu-principal{
                     display: inline-block;
+                    
                 }
 
                 nav.menu-principal ul li.btn-menu-principal{
                     list-style-type: none;
-                    tex
+                    
                 }
 
                 nav.menu-principal ul li.btn-menu-principal:hover a{
                     color: #1FA593;
                     transition: 0.5s all;
                 }
+
+                            /* Boite */
+
+                            div#contenu div{
+                                display: inline-block;
+                                width: 48%;
+                            }
+
+                            div#contenu div.gauche{
+
+                            }
+
+                            div#contenu div.droite{
+                                vertical-align: top;
+                            }
