@@ -7,6 +7,11 @@ header{
     margin: 2%;
         }
 
+        /* Affichage mobile */
+        body {
+            min-width: 1000px;
+        }
+
         /* Style texte */
 
         h1.titre{
