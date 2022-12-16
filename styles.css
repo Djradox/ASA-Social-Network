@@ -9,7 +9,7 @@ header{
 
                 /* Affichage mobile */
                 body {
-                    min-width: 1000px;
+                    min-width: 320px;
                 }
 
         /* Style texte */
@@ -32,7 +32,6 @@ header{
                     text-align: center;
                     padding-left: auto;
                     padding-right: auto;
-                    margin-bottom: 50px;
                 }
 
                 nav.menu-principal ul li.btn-menu-principal a{
@@ -70,10 +69,12 @@ header{
                                 display: inline-block;
                                 width: 49%;
                                 margin-bottom: 100px;
+                                margin-top: 30px;
                             }
 
                             div#contenu div h2{
-                                margin: 50px;
+                                margin: 10px;
+                            
                             }
 
                             div#contenu div.gauche{
