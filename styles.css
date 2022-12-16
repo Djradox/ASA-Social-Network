@@ -16,9 +16,10 @@ header{
 
         h1.titre{
             text-align: center;
-            font-family: cursive;
+            font-family: Arial, Helvetica, sans-serif;
             font-weight: lighter;
             color: #2A6198;
+            font-size: 48px;
         }
 
         h2.div{
@@ -27,15 +28,20 @@ header{
         }
                 /* Menu */ 
 
+                nav{
+                    text-align: center;
+                    padding-left: auto;
+                    padding-right: auto;
+                    margin-bottom: 50px;
+                }
+
                 nav.menu-principal ul li.btn-menu-principal a{
                     color: #2A6198;
-                    font-size: x-large;
+                    font-size: 32px;
                     text-decoration: none;
                     margin-left: auto;
                     margin-right: auto;
-                    padding: 10px;
-                    text-align: center;
-
+                    padding: 50px;
                 }
 
                 nav.menu-principal ul li.btn-menu-principal:visited a{
@@ -63,6 +69,11 @@ header{
                             div#contenu div{
                                 display: inline-block;
                                 width: 49%;
+                                margin-bottom: 100px;
+                            }
+
+                            div#contenu div h2{
+                                margin: 50px;
                             }
 
                             div#contenu div.gauche{
