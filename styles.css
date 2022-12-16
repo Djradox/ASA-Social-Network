@@ -77,7 +77,7 @@ header{
                             }
 
                             div#contenu div.gauche{
-
+                                vertical-align: top;
                             }
 
                             div#contenu div.droite{
