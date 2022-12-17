@@ -9,7 +9,7 @@ header{
 
                 /* Affichage mobile */
                 body {
-                    min-width: 320px;
+                    min-width: 1000px;
                 }
 
         /* Style texte */
